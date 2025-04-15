@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// Sieve of Eratosthenes
+// Sieve of Eratosthenes - O(nlog(log(n)))
 const int n = 1e6;
 bool pr[n+1] = {false};
 
