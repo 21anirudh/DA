@@ -2,8 +2,10 @@
 using namespace std;
 
 // Sieve of Eratosthenes
-const int n = 1e6;
-bool pr[n+1] = {false};
+int n = 1e+6;
+bool pr[n+1];
+pr[0] = false;
+pr[1] = false;
 
 void sieve(){
     for (int i = 2; i < n + 1;i++){
